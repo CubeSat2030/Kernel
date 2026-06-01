@@ -1,4 +1,4 @@
-# KabotSatOS... 
+# KabotSatOS
 
 The heart of the KabotSat Alpha cubesat scheduled to complete its construction by 2030. 
 
