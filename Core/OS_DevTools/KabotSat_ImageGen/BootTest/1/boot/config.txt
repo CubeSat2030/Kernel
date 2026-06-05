@@ -1,2 +1,0 @@
-kernel=kernel7.img
-enable_uart=1
