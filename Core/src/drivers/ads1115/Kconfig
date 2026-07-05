@@ -1,0 +1,7 @@
+config ADS1115
+    tristate "ADS1115 ADC character driver"
+    depends on I2C
+    help
+      Character driver for the TI ADS1115 16-bit ADC.
+      This driver creates /dev/ads1115, which can be read to obtain
+      channel voltages in millivolts.
