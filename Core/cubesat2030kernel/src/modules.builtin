@@ -41,7 +41,10 @@ kernel/crypto/hmac.ko
 kernel/crypto/sha256.ko
 kernel/crypto/ecb.ko
 kernel/crypto/cbc.ko
+kernel/crypto/cts.ko
+kernel/crypto/xts.ko
 kernel/crypto/des_generic.ko
+kernel/crypto/aes_generic.ko
 kernel/crypto/lzo.ko
 kernel/crypto/lzo-rle.ko
 kernel/crypto/rng.ko
@@ -59,10 +62,11 @@ kernel/lib/crc/crc-t10dif.ko
 kernel/lib/crc/crc32.ko
 kernel/lib/crc/crc64.ko
 kernel/lib/crypto/libcryptoutils.ko
+kernel/lib/crypto/libaes.ko
 kernel/lib/crypto/libdes.ko
 kernel/lib/crypto/libsha256.ko
+kernel/lib/crypto/libsha512.ko
 kernel/lib/crypto/mpi/mpi.ko
-kernel/lib/bitrev.ko
 kernel/lib/linear_ranges.ko
 kernel/lib/xxhash.ko
 kernel/lib/zlib_inflate/zlib_inflate.ko
@@ -82,6 +86,7 @@ kernel/lib/fonts/font.ko
 kernel/lib/oid_registry.ko
 kernel/drivers/irqchip/irq-brcmstb-l2.ko
 kernel/drivers/pinctrl/bcm/pinctrl-bcm2835.ko
+kernel/drivers/gpio/gpio-bcm-virt.ko
 kernel/drivers/gpio/gpio-raspberrypi-exp.ko
 kernel/drivers/gpio/gpio-stmpe.ko
 kernel/drivers/leds/led-class.ko
@@ -131,6 +136,7 @@ kernel/drivers/char/broadcom/vc_mem.ko
 kernel/drivers/char/broadcom/vcio.ko
 kernel/drivers/gpu/drm/drm_mipi_dsi.ko
 kernel/drivers/base/firmware_loader/firmware_class.ko
+kernel/drivers/base/regmap/regmap-mmio.ko
 kernel/drivers/block/brd.ko
 kernel/drivers/block/loop.ko
 kernel/drivers/mfd/stmpe.ko
@@ -144,12 +150,15 @@ kernel/drivers/scsi/sd_mod.ko
 kernel/drivers/net/mii.ko
 kernel/drivers/net/netkit.ko
 kernel/drivers/net/phy/mdio-bus.ko
+kernel/drivers/net/phy/phylink.ko
 kernel/drivers/net/phy/libphy.ko
 kernel/drivers/net/phy/mdio_devres.ko
 kernel/drivers/net/phy/fixed_phy.ko
+kernel/drivers/net/phy/microchip.ko
 kernel/drivers/net/phy/smsc.ko
 kernel/drivers/net/mdio/fwnode_mdio.ko
 kernel/drivers/net/mdio/of_mdio.ko
+kernel/drivers/net/usb/lan78xx.ko
 kernel/drivers/net/usb/smsc95xx.ko
 kernel/drivers/net/usb/usbnet.ko
 kernel/drivers/usb/common/usb-common.ko
@@ -164,6 +173,8 @@ kernel/drivers/input/input-leds.ko
 kernel/drivers/input/mousedev.ko
 kernel/drivers/input/evdev.ko
 kernel/drivers/i2c/i2c-core.ko
+kernel/drivers/i2c/i2c-dev.ko
+kernel/drivers/i2c/busses/i2c-bcm2835.ko
 kernel/drivers/media/rc/keymaps/rc-adstech-dvb-t-pci.ko
 kernel/drivers/media/rc/keymaps/rc-alink-dtu-m.ko
 kernel/drivers/media/rc/keymaps/rc-anysee.ko
