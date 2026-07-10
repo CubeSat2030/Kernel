@@ -1,1 +1,0 @@
-obj-$(CONFIG_ADS1115) += ads1115.o
