@@ -112,7 +112,6 @@ modules.order
 !.get_maintainer.ignore
 !.gitattributes
 !.gitignore
-!.gitkeep
 !.kunitconfig
 !.mailmap
 !.pylintrc
@@ -184,24 +183,3 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
-
-# KabotSat_ImageGen
-work/*
-site/__pycache__
-
-# KabotSat_buildroot
-/output
-/dl
-/.auto.deps
-/.config.cmd
-/.config.old
-/..config.tmp
-/.config
-*.depend
-*.o
-/*.patch
-/*.diff
-*.orig
-*.rej
-*~
-*.pyc
