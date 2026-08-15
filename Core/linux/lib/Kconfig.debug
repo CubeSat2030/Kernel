@@ -711,7 +711,7 @@ endmenu
 
 menu "Networking Debugging"
 
-source "net/Kconfig.debug"
+# source "net/Kconfig.debug"
 
 endmenu # "Networking Debugging"
 

@@ -59,7 +59,7 @@ source "drivers/firewire/Kconfig"
 
 source "drivers/macintosh/Kconfig"
 
-source "drivers/net/Kconfig"
+# source "drivers/net/Kconfig"
 
 source "drivers/isdn/Kconfig"
 
@@ -113,7 +113,7 @@ source "drivers/video/Kconfig"
 
 source "drivers/accel/Kconfig"
 
-source "sound/Kconfig"
+# source "sound/Kconfig"
 
 source "drivers/hid/Kconfig"
 

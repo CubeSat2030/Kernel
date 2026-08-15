@@ -7,7 +7,7 @@ obj-$(CONFIG_XEN)		+= xen/
 obj-$(CONFIG_VDSO)		+= vdso/
 obj-y				+= kernel/ mm/ common/
 obj-y				+= probes/
-obj-y				+= net/
+# obj-y += net/
 obj-y				+= crypto/
 
 # for cleaning

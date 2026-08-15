@@ -97,4 +97,4 @@ source "drivers/vfio/fsl-mc/Kconfig"
 source "drivers/vfio/cdx/Kconfig"
 endif
 
-source "virt/lib/Kconfig"
+# source "virt/lib/Kconfig"

@@ -747,7 +747,7 @@ config: outputmakefile scripts_basic FORCE
 
 %config: outputmakefile scripts_basic FORCE
 	$(Q)$(MAKE) $(build)=scripts/kconfig $@
-
+	
 else #!config-build
 # ===========================================================================
 # Build targets only - this includes vmlinux, arch-specific targets, clean
