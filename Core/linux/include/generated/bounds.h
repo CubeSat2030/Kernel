@@ -7,8 +7,9 @@
  */
 
 #define NR_PAGEFLAGS 21 /* __NR_PAGEFLAGS */
-#define MAX_NR_ZONES 2 /* __MAX_NR_ZONES */
-#define SPINLOCK_SIZE 0 /* sizeof(spinlock_t) */
+#define MAX_NR_ZONES 3 /* __MAX_NR_ZONES */
+#define NR_CPUS_BITS 2 /* order_base_2(CONFIG_NR_CPUS) */
+#define SPINLOCK_SIZE 4 /* sizeof(spinlock_t) */
 #define LRU_GEN_WIDTH 3 /* order_base_2(MAX_NR_GENS + 1) */
 #define __LRU_REFS_WIDTH 2 /* MAX_NR_TIERS - 2 */
 
